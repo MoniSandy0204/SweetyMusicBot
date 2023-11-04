@@ -18,7 +18,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps11:monivps11@cluster
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⌜ꜱᴡᴇᴇᴛy ✘ ᴍᴜsɪᴄ 🕊⃝‌⌟")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "True")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9000000000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001891375171"))
