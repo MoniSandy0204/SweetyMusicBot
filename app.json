@@ -14,32 +14,32 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "17713634",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "a8c943a69022fef3ac66accc7ba8ce6b",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6671586333:AAE9lmQLng_vwnQ0VH-UpDEixaXdd5WSWJA",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://moni2002:moni2002@cluster0.uorma4o.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "5854691181",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @String_SessionRobot on Telegram.",
-        "value": "",
+        "value": "BQCP7n8RWza-1GEfxCj9XwdHsUgQy2UacCLmGYx4mfnj7JIFhVIQb8WG9T_aDY2aMsYljNqBns5kfO6kPniMwQGEmm-Oe5toI_vyjK57UVsnepA7zxbzP0EppZDcy_e4IbnCQUIWWzquHb7zPwdjmk8nj-nVvbIEtaJZZm9oeqXoVXmN216j7vHsGcY0GAYeMtGGZmvLUuaE_qnJLFnodolpHtLPSYIsYxGj5p8sX8GTOxtvFC8tNV4uBcAjAyKec9hHAdBPllmdmYnR6AsiB6lut-YVzTbcWyECnzC5KvPXgb4EBrWq7xwog3nY0_211MkYj1efLJI0FSZG5QqhFdl6AAAAAXn9mXgA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "",
+        "value": "-1001891375171",
         "required": true
       }
     },
@@ -69,5 +69,11 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "eco"
+          }
+      },
       "stack": "container"
   }
